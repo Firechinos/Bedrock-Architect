@@ -1,0 +1,5 @@
+{
+  "name": "Minecraft Behavior Architect",
+  "description": "A professional tool for Minecraft Add-on developers to modify behavior JSON files using natural language. Upload an entity behavior file and use AI to adjust health, speed, triggers, and more.",
+  "requestFramePermissions": []
+}
