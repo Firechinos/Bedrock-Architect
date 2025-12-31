@@ -34,7 +34,7 @@ const JsonEditor: React.FC<JsonEditorProps> = ({ content, onChange, readOnly = f
         onChange={(e) => onChange(e.target.value)}
         spellCheck={false}
         readOnly={readOnly}
-        placeholder="// Upload a Bedrock JSON file to initialize the workspace..."
+        placeholder="// Paste your Minecraft behavior JSON here or upload a file. Click 'Sync Editor' after pasting to initialize the workspace analysis."
       />
       <div className="px-5 py-2 bg-zinc-900/30 border-t border-white/5 flex items-center justify-between text-[10px] font-mono text-zinc-500">
         <div className="flex space-x-4">
